@@ -276,7 +276,7 @@ void loop() {
   /* ---- SERIAL ---- */
   if (millis() - lastSerial > 1000) {
     lastSerial = millis();
-    Serial.println("---- VENTILABS ----");
+    Serial.println("---- VentiLabs ----");
     Serial.print("Estado: "); Serial.println(state);
     Serial.print("VAI: "); Serial.println(VAI);
     Serial.print("PWM: "); Serial.println(pwmFinal);
